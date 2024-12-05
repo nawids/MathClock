@@ -79,18 +79,20 @@ function updateClock() {
   hop = opMap[hop];
   mop = opMap[mop];
 
+  const img_loc = "images/arabic/";
+
   //Hour images
-  let img_h11 = "<img src=\"images/n" + h11 + ".png\" alt=\"\" />";
-  let img_h12 = "<img src=\"images/n" + h12 + ".png\" alt=\"\" />";
-  let img_hop = "<img src=\"images/o" + hop + ".png\" alt=\"\" />";
-  let img_h21 = "<img src=\"images/n" + h21 + ".png\" alt=\"\" />";
-  let img_h22 = "<img src=\"images/n" + h22 + ".png\" alt=\"\" />";
+  let img_h11 = "<img src=\""+ img_loc + "n" + h11 + ".png\" alt=\"\" />";
+  let img_h12 = "<img src=\""+ img_loc + "n" + h12 + ".png\" alt=\"\" />";
+  let img_hop = "<img src=\""+ img_loc + "o" + hop + ".png\" alt=\"\" />";
+  let img_h21 = "<img src=\""+ img_loc + "n" + h21 + ".png\" alt=\"\" />";
+  let img_h22 = "<img src=\""+ img_loc + "n" + h22 + ".png\" alt=\"\" />";
   //Minute images
-  let img_m11 = "<img src=\"images/n" + m11 + ".png\" alt=\"\" />";
-  let img_m12 = "<img src=\"images/n" + m12 + ".png\" alt=\"\" />";
-  let img_mop = "<img src=\"images/o" + mop + ".png\" alt=\"\" />";
-  let img_m21 = "<img src=\"images/n" + m21 + ".png\" alt=\"\" />";
-  let img_m22 = "<img src=\"images/n" + m22 + ".png\" alt=\"\" />";
+  let img_m11 = "<img src=\""+ img_loc + "n" + m11 + ".png\" alt=\"\" />";
+  let img_m12 = "<img src=\""+ img_loc + "n" + m12 + ".png\" alt=\"\" />";
+  let img_mop = "<img src=\""+ img_loc + "o" + mop + ".png\" alt=\"\" />";
+  let img_m21 = "<img src=\""+ img_loc + "n" + m21 + ".png\" alt=\"\" />";
+  let img_m22 = "<img src=\""+ img_loc + "n" + m22 + ".png\" alt=\"\" />";
 
   document.getElementById("h11").innerHTML=img_h11;
   document.getElementById("h12").innerHTML=img_h12;
