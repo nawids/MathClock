@@ -6,7 +6,7 @@ body {
 }
 #wrapper {
     display:table;
-    width:80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -14,43 +14,8 @@ img{
     width: 100%;
 }
 
-#h11 {
-  display:table-cell;
-  width: 20%;
-}
-#h12 {
-  display:table-cell;
-  width:20%;
-}
-#h21 {
-  display:table-cell;
-  width:20%;
-}
-#h22 {
-  display:table-cell;
-  width: 20%;
-}
-#m11 {
-  display:table-cell;
-  width:20%;
-}
-#m12 {
-  display:table-cell;
-  width:20%;
-}
-#m21 {
-  display:table-cell;
-  width:20%;
-}
-#m22 {
-  display:table-cell;
-  width:20%;
-}
-#hop {
-  display:table-cell;
-  width:20%;
-}
-#mop {
-  display:table-cell;
-  width:20%;
+#h11,#h12, #h21, #h22,#m11,#m12,#m21,#m22,#hop,#mop {
+    display:table-cell;
+    max-width:20%;
+    max-height:80%;
 }
